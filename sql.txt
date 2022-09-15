@@ -1,0 +1,13 @@
+POST /php/dispatch.php?event=forgot_password_update&first_time=validate_user HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+X-Requested-With: XMLHttpRequest
+Referer: https://xxxxx/php/sadispatch.php?event=login_page&first_time=init
+Cookie: PHPSESSID=53ln7rqirmnv1mbtpj778eodg4; _firstImpression=true
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,br
+Content-Length: 128
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4512.0 Safari/537.36
+Host: http://XXXXXXX
+Connection: Keep-alive
+
+my_email_address=1@test.com&my_first_name=ghovjnjv&my_last_name=ghovjnjv&my_recovery_pin=1
